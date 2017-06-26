@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB" : 9223372036854775807,
+    "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A397C41-EFB0-498D-8CA5-49A639A39B4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB" : "",
+    "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437" : "finalProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Reddit Browser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Reddit Browser\/Reddit Browser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git-iosdev:s15",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git-iosdev:s15\/finalProject",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437"
+    }
+  ]
+}

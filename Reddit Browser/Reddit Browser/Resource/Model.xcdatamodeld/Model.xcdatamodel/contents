@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Comments" representedClassName=".Comments" syncable="YES" codeGenerationType="category">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="commentsToHistory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="History" inverseName="historyToComments" inverseEntity="History" syncable="YES"/>
+        <relationship name="commentsToPosts" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Posts" inverseName="postsToComments" inverseEntity="Posts" syncable="YES"/>
+    </entity>
+    <entity name="History" representedClassName=".History" syncable="YES" codeGenerationType="category">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permalink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="subreddit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textPost" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="historyToComments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comments" inverseName="commentsToHistory" inverseEntity="Comments" syncable="YES"/>
+        <relationship name="historyToPosts" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Posts" inverseName="postsToHistory" inverseEntity="Posts" syncable="YES"/>
+    </entity>
+    <entity name="Posts" representedClassName=".Posts" syncable="YES" codeGenerationType="category">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permalink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="subreddit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textPost" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="postsToComments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Comments" inverseName="commentsToPosts" inverseEntity="Comments" syncable="YES"/>
+        <relationship name="postsToHistory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="History" inverseName="historyToPosts" inverseEntity="History" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Comments" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="History" positionX="-36" positionY="9" width="128" height="210"/>
+        <element name="Posts" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
