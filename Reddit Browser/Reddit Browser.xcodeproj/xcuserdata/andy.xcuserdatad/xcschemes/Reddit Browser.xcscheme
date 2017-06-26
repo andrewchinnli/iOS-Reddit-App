@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A14960851E7632DD006147FE"
-               BuildableName = "Reddit Browser.app"
+               BuildableName = "Gilded.app"
                BlueprintName = "Reddit Browser"
                ReferencedContainer = "container:Reddit Browser.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A14960851E7632DD006147FE"
-            BuildableName = "Reddit Browser.app"
+            BuildableName = "Gilded.app"
             BlueprintName = "Reddit Browser"
             ReferencedContainer = "container:Reddit Browser.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A14960851E7632DD006147FE"
-            BuildableName = "Reddit Browser.app"
+            BuildableName = "Gilded.app"
             BlueprintName = "Reddit Browser"
             ReferencedContainer = "container:Reddit Browser.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A14960851E7632DD006147FE"
-            BuildableName = "Reddit Browser.app"
+            BuildableName = "Gilded.app"
             BlueprintName = "Reddit Browser"
             ReferencedContainer = "container:Reddit Browser.xcodeproj">
          </BuildableReference>

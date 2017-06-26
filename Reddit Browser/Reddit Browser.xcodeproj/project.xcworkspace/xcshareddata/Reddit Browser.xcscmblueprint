@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "210B150B259B2950B2BEF6CE3808D5BD04032965",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB" : 9223372036854775807,
-    "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437" : 9223372036854775807
+    "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437" : 9223372036854775807,
+    "210B150B259B2950B2BEF6CE3808D5BD04032965" : 9223372036854775807,
+    "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A397C41-EFB0-498D-8CA5-49A639A39B4B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB" : "",
-    "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437" : "finalProject\/"
+    "D35036CB7E3AA7B61CE888B24892ED2FC7B3B437" : "finalProject\/",
+    "210B150B259B2950B2BEF6CE3808D5BD04032965" : "iOS-Reddit-App\/",
+    "438F9D79DA66FCD3EEF1F4AB3AB8AD44330083FB" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Reddit Browser",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Reddit Browser\/Reddit Browser.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andrewchinnli\/iOS-Reddit-App",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "210B150B259B2950B2BEF6CE3808D5BD04032965"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git-iosdev:s15",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
