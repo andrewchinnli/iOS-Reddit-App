@@ -1,4 +1,4 @@
-# iOS-Reddit-App
+# Gilded - an iOS-Reddit-App
 Simple iOS reddit browsing application
 
 #Author: Andy Li, andrewchinnli@gmail.com
